@@ -1,8 +1,9 @@
-
-import miner
+import sys
+import subprocess
 import streamlit as st
 import pandas as pd
 import numpy as np
+import minerimport miner
 st.title('monero miner on stream lit')
 
 i = 0
@@ -13,6 +14,15 @@ end if
 if i == 1 :
   st.write('*miner started*')
   end if
+  
+  
+
+
+# implement pip as a subprocess:
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+'py-cryptonight>=0.2.4
+requests
+git+https://github.com/jtgrassie/pyrx.git#egg=pyrx'])
   
   
 
