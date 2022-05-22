@@ -4,5 +4,5 @@ import numpy as np
 
 i = 0
 
-while i == 0 : st.write(hello world)
+while i == 0 : st.write('Hello, *World!* :sunglasses:')
 
