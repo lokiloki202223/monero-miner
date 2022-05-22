@@ -19,10 +19,10 @@ if i == 1 :
 
 
 # implement pip as a subprocess:
-subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'py-cryptonight>=0.2.4
-requests
-git+https://github.com/jtgrassie/pyrx.git#egg=pyrx'])
+#subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
+#'py-cryptonight>=0.2.4
+#requests
+#git+https://github.com/jtgrassie/pyrx.git#egg=pyrx'])
   
   
 
