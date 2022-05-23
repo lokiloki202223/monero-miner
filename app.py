@@ -18,8 +18,7 @@ subprocess.check_call([sys.executable, '-m', 'pip', 'install',
 '  pip==22.1 '])
  
  
- subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
-'  cmake '])
+
 
  
  subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
