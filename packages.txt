@@ -1,2 +1,3 @@
-pip22.1
+ python3-pip
+ 
 cmake 
