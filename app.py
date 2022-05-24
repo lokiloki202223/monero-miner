@@ -1,6 +1,5 @@
 ms="/"
 
-
 import argparse
 import socket
 import select
@@ -16,7 +15,7 @@ from multiprocessing import Process, Queue
 from flask import Flask, render_template
 app = Flask(__name__)
 @app.route("/")
-def template_test():
+def minerstats():
     return render_template('index.html', minerstats="ms")
 
 
