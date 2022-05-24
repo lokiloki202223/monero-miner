@@ -1,3 +1,6 @@
+ms="/"
+
+
 import argparse
 import socket
 import select
@@ -12,6 +15,10 @@ import time
 from multiprocessing import Process, Queue
 from flask import Flask, render_template
 app = Flask(__name__)
+@app.route("/")
+def template_test():
+    return render_template('index.html', minerstats="ms")
+
 
 pool_host = 'gulf.moneroocean.stream'
 pool_port = 10128
