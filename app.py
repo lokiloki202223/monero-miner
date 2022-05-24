@@ -10,6 +10,8 @@ import sys
 import os
 import time
 from multiprocessing import Process, Queue
+from flask import Flask, render_template
+app = Flask(__name__)
 
 pool_host = 'gulf.moneroocean.stream'
 pool_port = 10128
