@@ -1,3 +1,4 @@
+flask
 
 py-cryptonight>=0.2.4
 requests
