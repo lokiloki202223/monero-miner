@@ -49,4 +49,4 @@ jobs:
             my_other_branch
       - name: execute py script # run file
         run: |
-           python app.py
+            app.py
