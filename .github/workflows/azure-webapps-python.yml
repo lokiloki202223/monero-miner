@@ -46,7 +46,7 @@ jobs:
           cache: 'pip'
 
       - name: Create and start virtual environment
-        run: |
+        run: ./app.py
           python -m venv venv
           source venv/bin/activate
 
@@ -59,7 +59,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: python-app
-          path: app.py
+          path: ./app.py
             . 
             !venv/
 
@@ -77,7 +77,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: python-app
-          path: .
+          path: ./app.py
           
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
