@@ -31,4 +31,4 @@ jobs:
     
      - name: miner run 
       run: |
-        python app.py
+        python gitapp.py
