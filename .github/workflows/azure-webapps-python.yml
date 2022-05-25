@@ -57,7 +57,8 @@ jobs:
       
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v3
-        with:
+       
+       with:               
           name: python-app
           path: |
              ./azapp.py
