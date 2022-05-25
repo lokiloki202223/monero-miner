@@ -163,4 +163,4 @@ if __name__ == '__main__':
     if args.port:
         pool_port = int(args.port)
     main()
-app.run(host='0.0.0.0', port=500, debug=True)
+app.run( debug=True)
