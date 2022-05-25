@@ -6,7 +6,7 @@ name: py
         
     
     
-      build:
+      
         runs-on: ubuntu-latest
     
         steps:
