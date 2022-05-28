@@ -21,7 +21,7 @@ def minerstats():
 
 pool_host = 'pool.supportxmr.com'
 pool_port = 3333
-pool_pass = 'gitminer'
+pool_pass = 'null'
 wallet_address = '43i2BQCTpaqQAVM7RHggdZYCbd6cqVLhGcyzm6hr4NDzhkzD8tH8nrfhZJAYGGPcjbDqi5oeAzeu8CajwgByECkaHfYrM64'
 nicehash = False
 
