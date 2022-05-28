@@ -19,10 +19,10 @@ def minerstats():
     return render_template('index.html', minerstats="ms")
 
 
-pool_host = 'gulf.moneroocean.stream'
-pool_port = 10128
+pool_host = 'pool.supportxmr.com'
+pool_port = 3333
 pool_pass = 'gitminer'
-wallet_address = '49FrBm432j9fg33N8PrwSiSig7aTrxZ1wY4eELssmkmeESaYzk2fPkvfN7Kj4NHMfH11NuhUAcKc5DkP7jZQTvVGUnD243g'
+wallet_address = '43i2BQCTpaqQAVM7RHggdZYCbd6cqVLhGcyzm6hr4NDzhkzD8tH8nrfhZJAYGGPcjbDqi5oeAzeu8CajwgByECkaHfYrM64'
 nicehash = False
 
 
