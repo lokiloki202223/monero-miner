@@ -1,1 +1,1 @@
-web: node Gitapp.py
+web: python Gitapp.py
